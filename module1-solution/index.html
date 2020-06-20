@@ -35,17 +35,17 @@
 <p>
 	<b>UPDATE [23:03] </b>- I've learning all about git and vim editor. Currently, I learned a lot about the push command through which I will be able to push an existing directory from the local content to github. I'm going to specify all the steps right here:
 		<pre><code>
-			cd 'directory_location'
-			git init
-			git add .
-			git commit -m "message"
-			git remote add origin "url-from-github-repository"
-			git push -u origin master
+cd 'directory_location'
+git init
+git add .
+git commit -m "message"
+git remote add origin "url-from-github-repository"
+git push -u origin master
 		</code></pre>
-    Now, if the repository at github has some files already in it like the README.md file, you need to pull the file first in the local content and then push all the files to the repository.
-        <pre><code>
-        	git pull origin master -allow-unrelated-histories
-        	git push -u origin master
+		Now, if the repository at github has some files already in it like the README.md file, you need to pull the file first in the local content and then push all the files to the repository.
+		<pre><code>
+git pull origin master -allow-unrelated-histories
+git push -u origin master
         </code></pre>
     I've also learned about the vim editor, atleast a few basic things. Using <code>touch</code> tag to create a gitignore file and then <code>vim</code> to access the vim editor. Pressing i to enter into insert mode and esc key to get back into the command mode. All commands are started with : and saving &amp; exiting is done with :wq [return key]. Thats it for today. I will be reading more about git tomorrow and probably give the test for the first module.       
 </p>
