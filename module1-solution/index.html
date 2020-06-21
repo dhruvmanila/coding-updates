@@ -34,14 +34,12 @@
 </p>
 <p>
 	<b>UPDATE [23:03] </b>- I've learning all about git and vim editor. Currently, I learned a lot about the push command through which I will be able to push an existing directory from the local content to github. I'm going to specify all the steps right here:
-		<pre><code>
-cd 'directory_location'
+<pre><code>cd 'directory_location'
 git init
 git add .
 git commit -m "message"
 git remote add origin "url-from-github-repository"
-git push -u origin master
-		</code></pre>
+git push -u origin master</code></pre>
 		Now, if the repository at github has some files already in it like the README.md file, you need to pull the file first in the local content and then push all the files to the repository.
 		<pre><code>
 git pull origin master -allow-unrelated-histories
