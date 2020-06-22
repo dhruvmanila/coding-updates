@@ -19,3 +19,10 @@ a:hover {
 	text-decoration: underline;
 	color: lightgray;
 }
+
+/********** Small devices only **********/
+@media (max-width: 992px) {
+	body {
+		padding: 10px;
+	}
+}
