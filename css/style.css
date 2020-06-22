@@ -3,6 +3,8 @@ body {
 	margin: 0 auto;
 	background-color: black;
 	color: white; 
+	font-family: times, serif;
+	font-size: 20px;
 }
 
 .quote {
@@ -25,4 +27,21 @@ a:hover {
 	body {
 		padding: 10px;
 	}
+}
+
+a.button {
+  background-color: gray;
+  border-radius: 4px;
+  color: black;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a.button:hover {
+	background-color: white;
+	text-decoration: none;
 }
