@@ -26,6 +26,7 @@ a:hover {
 @media (max-width: 992px) {
 	body {
 		padding: 10px;
+		word-break: break-word;
 	}
 }
 
@@ -44,4 +45,23 @@ a.button {
 a.button:hover {
 	background-color: white;
 	text-decoration: none;
+}
+
+
+pre code {
+	background-color: #404040;
+	border: 1px solid black;
+	padding: 15px;
+	color: white;
+	border-radius: 10px;
+	display: block;
+} 
+
+.sm_code {
+	background-color: #404040;
+	color: white;
+	padding: 2px;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 1px;
 }
