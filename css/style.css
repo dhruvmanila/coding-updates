@@ -7,7 +7,7 @@ body {
 	margin: 0 auto;
 	background-color: black;
 	color: white; 
-	font-family: times, serif;
+	font-family: charter, serif;
 	font-size: 1.25em;
 	line-height: 26px;
 }
@@ -24,6 +24,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	font-weight: bold;
 	color: lightgray;
 }
 
@@ -34,24 +35,6 @@ a:hover {
 		word-break: break-word;
 	}
 }
-
-a.button {
-  background-color: gray;
-  border-radius: 4px;
-  color: black;
-  padding: 4px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-a.button:hover {
-	background-color: white;
-	text-decoration: none;
-}
-
 
 pre code {
 	background-color: #404040;
